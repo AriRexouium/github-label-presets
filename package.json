@@ -2,7 +2,7 @@
   "name": "@aceheliflyer/github-label-presets",
   "version": "1.0.0",
   "description": "",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "author": {
     "name": "Jarrett Aiken",
     "email": "jarrett.aiken@achl.fr",
@@ -10,13 +10,20 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prettier-package-json": "prettier-package-json --write ./package.json --expand-users true"
+    "lint:js": "standard --verbose | snazzy",
+    "lint:js-fix": "standard --verbose --fix | snazzy",
+    "prettier-package-json": "prettier-package-json --write ./package.json --expand-users true",
+    "start": "node index.js"
   },
   "dependencies": {
-    "github-label-sync": "^2.2.0"
+    "dotenv": "^16.0.3",
+    "github-label-sync": "^2.3.1",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "prettier-package-json": "^2.7.0"
+    "prettier-package-json": "^2.8.0",
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0"
   },
   "keywords": []
 }

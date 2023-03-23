@@ -1,0 +1,128 @@
+---
+########################################################################################################################
+# Priority
+########################################################################################################################
+- name: 'Priority: Critical'
+  description: 'Utmost attention required.'
+  color: 'ff0000'
+
+- name: 'Priority: High'
+  description: 'High attention required.'
+  color: 'f66d00'
+
+- name: 'Priority: Medium'
+  description: 'Attention required.'
+  color: 'd7a700'
+
+- name: 'Priority: Low'
+  description: 'Little attention required.'
+  color: 'a0d600'
+
+- name: 'Priority: Non-existent'
+  description: 'Little to no attention required.'
+  color: '00ff00'
+
+########################################################################################################################
+# Progress
+########################################################################################################################
+- name: 'Progress: Completed'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Progress: In Progress'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Progress: Pending'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Progress: On Hold'
+  description: ''
+  color: 'ffffff'
+
+########################################################################################################################
+# Status
+########################################################################################################################
+- name: 'Status: Available'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Status: Review Needed'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Status: Revision Needed'
+  description: ''
+  color: 'ffffff'
+
+- name: 'Status: Abandoned'
+  description: ''
+  color: 'ffffff'
+
+########################################################################################################################
+# Type
+########################################################################################################################
+- name: 'Type: Bug'
+  description: "Something isn't working."
+  color: 'd73a4a'
+  aliases:
+    - 'bug'
+
+- name: 'Type: Discussion'
+  description: 'Questions, proposals and info that requires discussion.'
+  color: 'd4c5f9'
+
+- name: 'Type: Documentation'
+  description: 'Improvements or additions to documentation.'
+  color: '0075ca'
+  aliases:
+    - 'documentation'
+
+- name: 'Type: Duplicate'
+  description: 'This issue or pull request already exists.'
+  color: 'cfd3d7'
+  aliases:
+    - 'duplicate'
+
+- name: 'Type: Feature'
+  description: 'Brand new functionality, features, etc.'
+  color: '5ebeff'
+
+- name: 'Type: Help Wanted'
+  description: 'Extra attention is needed.'
+  color: '008672'
+  aliases:
+    - 'help wanted'
+
+- name: 'Type: Invalid'
+  description: "This doesn't seem right."
+  color: 'e4e669'
+  aliases:
+    - 'invalid'
+
+- name: 'Type: Maintenance'
+  description: 'Necessary but non-impactful tasks.'
+  color: 'a2eeef'
+  aliases:
+    - 'enhancement'
+
+- name: 'Type: Security'
+  description: 'Something is vulnerable or not secure.'
+  color: 'd73a4a'
+
+- name: 'Type: Testing'
+  description: 'Something related to testing.'
+  color: 'fbca04'
+
+- name: 'Type: Question'
+  description: 'Further information is requested.'
+  color: 'd876e3'
+  aliases:
+    - 'question'
+
+- name: "Type: Won't Fix"
+  description: 'This will not be worked on.'
+  color: 'ffffff'
+  aliases:
+    - 'wontfix'
