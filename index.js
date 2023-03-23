@@ -1,7 +1,8 @@
-const githubLabelSync = require('github-label-sync')
-const yaml = require('js-yaml')
-const fs = require('fs')
-require('dotenv').config()
+import githubLabelSync from 'github-label-sync'
+import yaml from 'js-yaml'
+import fs from 'fs'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 githubLabelSync({
   accessToken: process.env.ACCESSTOKEN,

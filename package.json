@@ -8,11 +8,12 @@
     "email": "jarrett.aiken@achl.fr",
     "url": "https://achl.fr"
   },
+  "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint:js": "standard --verbose | snazzy",
     "lint:js-fix": "standard --verbose --fix | snazzy",
-    "prettier-package-json": "prettier-package-json --write ./package.json --expand-users true",
+    "lint:package-fix": "prettier-package-json --write ./package.json --expand-users true",
     "start": "node index.js"
   },
   "dependencies": {
