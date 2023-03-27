@@ -19,6 +19,8 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "github-label-sync": "^2.3.1",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.2.0",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
