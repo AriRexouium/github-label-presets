@@ -8,86 +8,86 @@
 
 - name: 'Priority: High'
   description: 'High attention required.'
-  color: 'f66d00'
+  color: 'FBCA04'
 
 - name: 'Priority: Medium'
   description: 'Attention required.'
-  color: 'd7a700'
+  color: 'FEF2C0'
 
 - name: 'Priority: Low'
   description: 'Little attention required.'
-  color: 'a0d600'
+  color: 'C2E0C6'
 
 - name: 'Priority: Non-existent'
   description: 'Little to no attention required.'
-  color: '00ff00'
+  color: '0E8A16'
 
 ########################################################################################################################
 # Progress
 ########################################################################################################################
 - name: 'Progress: Completed'
-  description: ''
-  color: 'ffffff'
+  description: 'Work has been completed.'
+  color: 'C2E0C6'
 
 - name: 'Progress: In Progress'
-  description: ''
-  color: 'ffffff'
+  description: 'Work is in progress.'
+  color: 'D4C5F9'
 
 - name: 'Progress: Pending'
-  description: ''
-  color: 'ffffff'
+  description: 'Work is pending.'
+  color: 'FEF2C0'
 
 - name: 'Progress: On Hold'
-  description: ''
-  color: 'ffffff'
+  description: 'Work has been halted.'
+  color: 'E99695'
 
 ########################################################################################################################
 # Status
 ########################################################################################################################
 - name: 'Status: Available'
-  description: ''
-  color: 'ffffff'
+  description: 'This issue or pull request is available to be looked at.'
+  color: '0E8A16'
 
 - name: 'Status: Review Needed'
-  description: ''
-  color: 'ffffff'
+  description: 'Something needs to be looked at.'
+  color: 'FBCA04'
 
 - name: 'Status: Revision Needed'
-  description: ''
-  color: 'ffffff'
+  description: 'Something needs to be changed.'
+  color: 'D93F0B'
 
 - name: 'Status: Abandoned'
-  description: ''
-  color: 'ffffff'
+  description: 'This issue or pull request is stale.'
+  color: '000000'
 
 ########################################################################################################################
 # Type
 ########################################################################################################################
 - name: 'Type: Bug'
   description: "Something isn't working."
-  color: 'd73a4a'
+  color: 'D73A4A'
   aliases:
     - 'bug'
 
 - name: 'Type: Discussion'
   description: 'Questions, proposals and info that requires discussion.'
-  color: 'd4c5f9'
+  color: 'D4C5F9'
 
 - name: 'Type: Documentation'
   description: 'Improvements or additions to documentation.'
-  color: '0075ca'
+  color: '0075CA'
   aliases:
     - 'documentation'
 
 - name: 'Type: Duplicate'
   description: 'This issue or pull request already exists.'
-  color: 'cfd3d7'
+  color: 'CFD3D7'
   aliases:
     - 'duplicate'
 
 - name: 'Type: Feature'
   description: 'Brand new functionality, features, etc.'
-  color: '5ebeff'
+  color: 'A2EEEF'
 
 - name: 'Type: Help Wanted'
   description: 'Extra attention is needed.'
@@ -97,32 +97,32 @@
 
 - name: 'Type: Invalid'
   description: "This doesn't seem right."
-  color: 'e4e669'
+  color: 'CFD3D7'
   aliases:
     - 'invalid'
 
 - name: 'Type: Maintenance'
   description: 'Necessary but non-impactful tasks.'
-  color: 'a2eeef'
+  color: 'FBCA04'
   aliases:
     - 'enhancement'
 
 - name: 'Type: Security'
   description: 'Something is vulnerable or not secure.'
-  color: 'd73a4a'
+  color: 'D93F0B'
 
 - name: 'Type: Testing'
   description: 'Something related to testing.'
-  color: 'fbca04'
+  color: 'FBCA04'
 
 - name: 'Type: Question'
   description: 'Further information is requested.'
-  color: 'd876e3'
+  color: 'D876E3'
   aliases:
     - 'question'
 
 - name: "Type: Won't Fix"
   description: 'This will not be worked on.'
-  color: 'ffffff'
+  color: 'FFFFFF'
   aliases:
     - 'wontfix'
