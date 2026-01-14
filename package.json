@@ -21,7 +21,7 @@
     "github-label-sync": "^2.3.1",
     "graphql": "^16.8.1",
     "graphql-request": "^5.2.0",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.1"
   },
   "devDependencies": {
     "prettier-package-json": "^2.8.0",
